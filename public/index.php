@@ -5,11 +5,7 @@ include_once('model.php');
 include_once('test.php');
 
 $conn = get_connect();
-/*$users = get_users($conn);
-var_dump($users);
-foreach ($users as $user) {
-    echo $user['id'].' name '.$user['name'].'  ';
-}*/
+
 // Uncomment to see data in db
 //run_db_test($conn);
 
